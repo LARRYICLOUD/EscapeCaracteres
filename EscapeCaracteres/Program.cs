@@ -25,6 +25,17 @@ namespace EscapeCaracteres
             Console.WriteLine("Presiona cualquier tecla para confirmar: ");
             Console.ReadKey();
             Console.WriteLine("\n\a ¡Aviso! Esta accion no puede cancelarse");
+
+            Console.ReadKey();
+
+            //Secuencia de escape "Retorno de carro" /r regresara el cursor al inicio
+            //y sobreescribira los caracteres
+            Console.WriteLine("1234567\r89");
+
+            //Secuencia de escape de "retroceso" \b
+            Console.WriteLine("1234567\b89");
+
+
             
 
 
