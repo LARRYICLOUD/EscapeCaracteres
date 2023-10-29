@@ -20,7 +20,12 @@ namespace EscapeCaracteres
             Console.WriteLine("Así es la vida,\t así de irónica,\r\nunos llevan a cuesta la cruz que otro debe cargar." +
                 "\r\nAsí es la vida; así de lógica,\r\ncada quien tiene alguna historia que hablar o callar,\r\nasí es la vida, así...................");
 
+            // Secuencia de escape"\a" Sonido de alerta
 
+            Console.WriteLine("Presiona cualquier tecla para confirmar: ");
+            Console.ReadKey();
+            Console.WriteLine("\n\a ¡Aviso! Esta accion no puede cancelarse");
+            
 
 
 
