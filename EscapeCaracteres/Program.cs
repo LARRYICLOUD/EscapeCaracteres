@@ -35,6 +35,14 @@ namespace EscapeCaracteres
             //Secuencia de escape de "retroceso" \b
             Console.WriteLine("1234567\b89");
 
+            //Secuencia de escape Comilla doble   \"
+            Console.WriteLine("YO SOY UN PROGRAMADOR Y EXPERTO EN REDES RECONOCIDO: \n\" yo soy un programador y experto en redes reconocido.\"");
+
+            Console.WriteLine("El tipo char se caracteriza por estar encerrado entre comillas simples, ejemplo: char caracter = \'c\'");
+
+            //Secuencia de escape "Barra diagonal inversa" \\
+            Console.WriteLine("El archivo se encuentra en la ruta: C:\\Windows\\Fonts");
+
 
             
 
